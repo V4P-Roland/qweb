@@ -1,0 +1,8 @@
+services:
+  qweb:
+    build: .
+    image: qweb:latest
+    container_name: qweb
+    restart: unless-stopped
+    ports:
+      - "${PORT:-8080}:5000"
