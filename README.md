@@ -2,7 +2,7 @@
 
 Qalcurate Web is a clickable prototype of the Qalcurate MVP's desktop web
 application — the enterprise counterpart to the [Qalcurate mobile
-PWA](https://github.com/V4P-Roland/qalcurate). It covers the full Module 10
+PWA](https://github.com/V4P-Roland/qmob-pwa) (qmob-pwa). It covers the full Module 10
 (Climate Risk Assessment) workflow: multi-channel evidence capture, a
 role-gated six-step risk assessment stepper, and a TCFD-aligned reporting
 dashboard, all driven by an in-memory mock data layer — no backend, no
@@ -144,7 +144,7 @@ all data lives in a client-side mock data module for prototyping speed.
 - **Desktop-first.** The sidebar is `hidden` below the `md` breakpoint by
   design, per the scoped Web Version concept — there is no mobile
   navigation in this prototype (the mobile experience is covered by the
-  separate [Qalcurate PWA](https://github.com/V4P-Roland/qalcurate)).
+  separate [Qalcurate PWA](https://github.com/V4P-Roland/qmob-pwa) (qmob-pwa)).
 - **No persistence.** All state (role, active site, assessment progress,
   captured evidence) lives in React context/memory and resets on reload.
 - **No real backend.** Web Research results, transcripts, and risk scores
